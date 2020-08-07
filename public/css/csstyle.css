@@ -1,0 +1,90 @@
+
+body{
+    font-family: 'Baloo Da 2', cursive;
+}
+.headercs{
+    font-size: 50px;
+    color: rgb(233, 101, 24);
+    background-color:wheat;
+    height: 160;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centercall{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.content{
+    color: rgb(0, 0, 0);
+}
+
+    .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  .tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+} 
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .imgcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
